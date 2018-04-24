@@ -1,0 +1,65 @@
+body {
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #4C4C4C;
+  background-color: #ECEEF1; }
+
+nav {
+  width: 100%;
+  height: 70px;
+  padding-top: 2px; }
+  nav #nav-content div {
+    float: right;
+    -webkit-margin-before: 0;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: right; }
+  nav #nav-content button {
+    height: 34px;
+    width: 102px;
+    float: right;
+    margin-right: 23px;
+    background: linear-gradient(to bottom, #0077C5 0, #167CCC 100%);
+    border: 1px solid #4c4c4c;
+    border-radius: 3px;
+    padding-top: 0; }
+
+/****** LOGO ******/
+#intuit-logo {
+  height: 64px;
+  display: block; }
+
+/****** MAIN ******/
+#main-container {
+  width: 22%;
+  height: 650px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #A7A7A7;
+  border-radius: 2px;
+  margin: 0 auto; }
+  #main-container #product-logos .turbotax {
+    background-image: url(/images/v2/ecosystem_logos_new.png); }
+  #main-container #blurb {
+    text-align: center;
+    padding: 1em; }
+
+form fieldset {
+  border: none; }
+  form fieldset input {
+    width: 100%;
+    line-height: 2em; }
+  form fieldset button {
+    display: block;
+    width: 100%;
+    text-align: center; }
+
+label {
+  display: block;
+  line-height: 1.5em; }
+
+/****** FOOTER ******/
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
